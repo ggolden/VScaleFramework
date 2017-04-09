@@ -8,8 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		00E9ED761E9AAC60008A0EED /* VScaleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9ED6C1E9AAC60008A0EED /* VScaleFramework.framework */; };
-		00E9ED7B1E9AAC60008A0EED /* VScaleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED7A1E9AAC60008A0EED /* VScaleFrameworkTests.swift */; };
 		00E9ED7D1E9AAC60008A0EED /* VScaleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E9ED6F1E9AAC60008A0EED /* VScaleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00E9ED971E9AADB3008A0EED /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED871E9AADB3008A0EED /* Layout.swift */; };
+		00E9ED981E9AADB3008A0EED /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED881E9AADB3008A0EED /* LayoutItem.swift */; };
+		00E9ED991E9AADB3008A0EED /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED8A1E9AADB3008A0EED /* Platform.swift */; };
+		00E9ED9A1E9AADB3008A0EED /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED8C1E9AADB3008A0EED /* Avatar.swift */; };
+		00E9ED9B1E9AADB3008A0EED /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED8D1E9AADB3008A0EED /* Picture.swift */; };
+		00E9ED9C1E9AADB3008A0EED /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED8E1E9AADB3008A0EED /* Room.swift */; };
+		00E9ED9D1E9AADB3008A0EED /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED901E9AADB3008A0EED /* Track.swift */; };
+		00E9ED9E1E9AADB3008A0EED /* TrackBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED911E9AADB3008A0EED /* TrackBed.swift */; };
+		00E9ED9F1E9AADB3008A0EED /* CabooseBlocky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED931E9AADB3008A0EED /* CabooseBlocky.swift */; };
+		00E9EDA01E9AADB3008A0EED /* EngineBlocky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED941E9AADB3008A0EED /* EngineBlocky.swift */; };
+		00E9EDA11E9AADB3008A0EED /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED951E9AADB3008A0EED /* Train.swift */; };
+		00E9EDA21E9AADB3008A0EED /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED961E9AADB3008A0EED /* TrainCar.swift */; };
+		00E9EDB71E9AADD2008A0EED /* black-curtain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDA51E9AADD2008A0EED /* black-curtain.jpg */; };
+		00E9EDB81E9AADD2008A0EED /* brick-wall-free-textures-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDA61E9AADD2008A0EED /* brick-wall-free-textures-01.jpg */; };
+		00E9EDB91E9AADD2008A0EED /* ceiling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDA71E9AADD2008A0EED /* ceiling.jpg */; };
+		00E9EDBA1E9AADD2008A0EED /* door_wall_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDA81E9AADD2008A0EED /* door_wall_3.png */; };
+		00E9EDBB1E9AADD2008A0EED /* European-Countryside-Scenic-Backdrop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDA91E9AADD2008A0EED /* European-Countryside-Scenic-Backdrop.jpg */; };
+		00E9EDBC1E9AADD2008A0EED /* gravel_by_moltenlead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDAA1E9AADD2008A0EED /* gravel_by_moltenlead.jpg */; };
+		00E9EDBD1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDAB1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg */; };
+		00E9EDBE1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDAC1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg */; };
+		00E9EDC01E9AADD2008A0EED /* red-and-black-rocks-gravel-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDAE1E9AADD2008A0EED /* red-and-black-rocks-gravel-texture.jpg */; };
+		00E9EDC11E9AADD2008A0EED /* rr_picture_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDAF1E9AADD2008A0EED /* rr_picture_1.jpg */; };
+		00E9EDC21E9AADD2008A0EED /* rr_picture_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB01E9AADD2008A0EED /* rr_picture_2.jpg */; };
+		00E9EDC31E9AADD2008A0EED /* rr_picture_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB11E9AADD2008A0EED /* rr_picture_3.jpg */; };
+		00E9EDC41E9AADD2008A0EED /* rr_picture_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB21E9AADD2008A0EED /* rr_picture_4.jpg */; };
+		00E9EDC51E9AADD2008A0EED /* stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB31E9AADD2008A0EED /* stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg */; };
+		00E9EDC61E9AADD2008A0EED /* train_landscape_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB41E9AADD2008A0EED /* train_landscape_1.jpg */; };
+		00E9EDC71E9AADD2008A0EED /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E9EDB51E9AADD2008A0EED /* wood.png */; };
+		00E9EDD11E9AAE36008A0EED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDC91E9AAE36008A0EED /* Extensions.swift */; };
+		00E9EDD21E9AAE36008A0EED /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCA1E9AAE36008A0EED /* Joint.swift */; };
+		00E9EDD31E9AAE36008A0EED /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCB1E9AAE36008A0EED /* Line.swift */; };
+		00E9EDD41E9AAE36008A0EED /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCC1E9AAE36008A0EED /* Path.swift */; };
+		00E9EDD51E9AAE36008A0EED /* Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCD1E9AAE36008A0EED /* Placement.swift */; };
+		00E9EDD61E9AAE36008A0EED /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCE1E9AAE36008A0EED /* Segment.swift */; };
+		00E9EDD71E9AAE36008A0EED /* Turnin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDCF1E9AAE36008A0EED /* Turnin.swift */; };
+		00E9EDD81E9AAE36008A0EED /* Turnout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDD01E9AAE36008A0EED /* Turnout.swift */; };
+		00E9EDDA1E9AAECB008A0EED /* PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9EDD91E9AAECB008A0EED /* PathTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +63,44 @@
 		00E9ED6F1E9AAC60008A0EED /* VScaleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VScaleFramework.h; sourceTree = "<group>"; };
 		00E9ED701E9AAC60008A0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E9ED751E9AAC60008A0EED /* VScaleFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VScaleFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E9ED7A1E9AAC60008A0EED /* VScaleFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScaleFrameworkTests.swift; sourceTree = "<group>"; };
 		00E9ED7C1E9AAC60008A0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E9ED871E9AADB3008A0EED /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		00E9ED881E9AADB3008A0EED /* LayoutItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutItem.swift; sourceTree = "<group>"; };
+		00E9ED8A1E9AADB3008A0EED /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		00E9ED8C1E9AADB3008A0EED /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		00E9ED8D1E9AADB3008A0EED /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		00E9ED8E1E9AADB3008A0EED /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		00E9ED901E9AADB3008A0EED /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		00E9ED911E9AADB3008A0EED /* TrackBed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackBed.swift; sourceTree = "<group>"; };
+		00E9ED931E9AADB3008A0EED /* CabooseBlocky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabooseBlocky.swift; sourceTree = "<group>"; };
+		00E9ED941E9AADB3008A0EED /* EngineBlocky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineBlocky.swift; sourceTree = "<group>"; };
+		00E9ED951E9AADB3008A0EED /* Train.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		00E9ED961E9AADB3008A0EED /* TrainCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
+		00E9EDA51E9AADD2008A0EED /* black-curtain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-curtain.jpg"; sourceTree = "<group>"; };
+		00E9EDA61E9AADD2008A0EED /* brick-wall-free-textures-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brick-wall-free-textures-01.jpg"; sourceTree = "<group>"; };
+		00E9EDA71E9AADD2008A0EED /* ceiling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceiling.jpg; sourceTree = "<group>"; };
+		00E9EDA81E9AADD2008A0EED /* door_wall_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_wall_3.png; sourceTree = "<group>"; };
+		00E9EDA91E9AADD2008A0EED /* European-Countryside-Scenic-Backdrop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "European-Countryside-Scenic-Backdrop.jpg"; sourceTree = "<group>"; };
+		00E9EDAA1E9AADD2008A0EED /* gravel_by_moltenlead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gravel_by_moltenlead.jpg; sourceTree = "<group>"; };
+		00E9EDAB1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gravel_by_royaltyfreestock.jpg; sourceTree = "<group>"; };
+		00E9EDAC1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gray-gravel-rock-texture.jpg"; sourceTree = "<group>"; };
+		00E9EDAE1E9AADD2008A0EED /* red-and-black-rocks-gravel-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red-and-black-rocks-gravel-texture.jpg"; sourceTree = "<group>"; };
+		00E9EDAF1E9AADD2008A0EED /* rr_picture_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rr_picture_1.jpg; sourceTree = "<group>"; };
+		00E9EDB01E9AADD2008A0EED /* rr_picture_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rr_picture_2.jpg; sourceTree = "<group>"; };
+		00E9EDB11E9AADD2008A0EED /* rr_picture_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rr_picture_3.jpg; sourceTree = "<group>"; };
+		00E9EDB21E9AADD2008A0EED /* rr_picture_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rr_picture_4.jpg; sourceTree = "<group>"; };
+		00E9EDB31E9AADD2008A0EED /* stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg"; sourceTree = "<group>"; };
+		00E9EDB41E9AADD2008A0EED /* train_landscape_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train_landscape_1.jpg; sourceTree = "<group>"; };
+		00E9EDB51E9AADD2008A0EED /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		00E9EDC91E9AAE36008A0EED /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00E9EDCA1E9AAE36008A0EED /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		00E9EDCB1E9AAE36008A0EED /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		00E9EDCC1E9AAE36008A0EED /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		00E9EDCD1E9AAE36008A0EED /* Placement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placement.swift; sourceTree = "<group>"; };
+		00E9EDCE1E9AAE36008A0EED /* Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		00E9EDCF1E9AAE36008A0EED /* Turnin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turnin.swift; sourceTree = "<group>"; };
+		00E9EDD01E9AAE36008A0EED /* Turnout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turnout.swift; sourceTree = "<group>"; };
+		00E9EDD91E9AAECB008A0EED /* PathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +145,13 @@
 			children = (
 				00E9ED6F1E9AAC60008A0EED /* VScaleFramework.h */,
 				00E9ED701E9AAC60008A0EED /* Info.plist */,
+				00E9EDA31E9AADD2008A0EED /* assets */,
+				00E9ED8B1E9AADB3008A0EED /* room */,
+				00E9ED921E9AADB3008A0EED /* train */,
+				00E9ED8F1E9AADB3008A0EED /* track */,
+				00E9ED861E9AADB3008A0EED /* layout */,
+				00E9ED891E9AADB3008A0EED /* layout_item */,
+				00E9EDC81E9AAE36008A0EED /* utility */,
 			);
 			path = VScaleFramework;
 			sourceTree = "<group>";
@@ -80,10 +159,95 @@
 		00E9ED791E9AAC60008A0EED /* VScaleFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E9ED7A1E9AAC60008A0EED /* VScaleFrameworkTests.swift */,
 				00E9ED7C1E9AAC60008A0EED /* Info.plist */,
+				00E9EDD91E9AAECB008A0EED /* PathTests.swift */,
 			);
 			path = VScaleFrameworkTests;
+			sourceTree = "<group>";
+		};
+		00E9ED861E9AADB3008A0EED /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				00E9ED871E9AADB3008A0EED /* Layout.swift */,
+				00E9ED881E9AADB3008A0EED /* LayoutItem.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		00E9ED891E9AADB3008A0EED /* layout_item */ = {
+			isa = PBXGroup;
+			children = (
+				00E9ED8A1E9AADB3008A0EED /* Platform.swift */,
+			);
+			path = layout_item;
+			sourceTree = "<group>";
+		};
+		00E9ED8B1E9AADB3008A0EED /* room */ = {
+			isa = PBXGroup;
+			children = (
+				00E9ED8C1E9AADB3008A0EED /* Avatar.swift */,
+				00E9ED8D1E9AADB3008A0EED /* Picture.swift */,
+				00E9ED8E1E9AADB3008A0EED /* Room.swift */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		00E9ED8F1E9AADB3008A0EED /* track */ = {
+			isa = PBXGroup;
+			children = (
+				00E9ED901E9AADB3008A0EED /* Track.swift */,
+				00E9ED911E9AADB3008A0EED /* TrackBed.swift */,
+			);
+			path = track;
+			sourceTree = "<group>";
+		};
+		00E9ED921E9AADB3008A0EED /* train */ = {
+			isa = PBXGroup;
+			children = (
+				00E9ED931E9AADB3008A0EED /* CabooseBlocky.swift */,
+				00E9ED941E9AADB3008A0EED /* EngineBlocky.swift */,
+				00E9ED951E9AADB3008A0EED /* Train.swift */,
+				00E9ED961E9AADB3008A0EED /* TrainCar.swift */,
+			);
+			path = train;
+			sourceTree = "<group>";
+		};
+		00E9EDA31E9AADD2008A0EED /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				00E9EDA51E9AADD2008A0EED /* black-curtain.jpg */,
+				00E9EDA61E9AADD2008A0EED /* brick-wall-free-textures-01.jpg */,
+				00E9EDA71E9AADD2008A0EED /* ceiling.jpg */,
+				00E9EDA81E9AADD2008A0EED /* door_wall_3.png */,
+				00E9EDA91E9AADD2008A0EED /* European-Countryside-Scenic-Backdrop.jpg */,
+				00E9EDAA1E9AADD2008A0EED /* gravel_by_moltenlead.jpg */,
+				00E9EDAB1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg */,
+				00E9EDAC1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg */,
+				00E9EDAE1E9AADD2008A0EED /* red-and-black-rocks-gravel-texture.jpg */,
+				00E9EDAF1E9AADD2008A0EED /* rr_picture_1.jpg */,
+				00E9EDB01E9AADD2008A0EED /* rr_picture_2.jpg */,
+				00E9EDB11E9AADD2008A0EED /* rr_picture_3.jpg */,
+				00E9EDB21E9AADD2008A0EED /* rr_picture_4.jpg */,
+				00E9EDB31E9AADD2008A0EED /* stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg */,
+				00E9EDB41E9AADD2008A0EED /* train_landscape_1.jpg */,
+				00E9EDB51E9AADD2008A0EED /* wood.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		00E9EDC81E9AAE36008A0EED /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				00E9EDC91E9AAE36008A0EED /* Extensions.swift */,
+				00E9EDCA1E9AAE36008A0EED /* Joint.swift */,
+				00E9EDCB1E9AAE36008A0EED /* Line.swift */,
+				00E9EDCC1E9AAE36008A0EED /* Path.swift */,
+				00E9EDCD1E9AAE36008A0EED /* Placement.swift */,
+				00E9EDCE1E9AAE36008A0EED /* Segment.swift */,
+				00E9EDCF1E9AAE36008A0EED /* Turnin.swift */,
+				00E9EDD01E9AAE36008A0EED /* Turnout.swift */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +318,7 @@
 					00E9ED741E9AAC60008A0EED = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 659J867D6A;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -181,6 +346,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E9EDC31E9AADD2008A0EED /* rr_picture_3.jpg in Resources */,
+				00E9EDB71E9AADD2008A0EED /* black-curtain.jpg in Resources */,
+				00E9EDC71E9AADD2008A0EED /* wood.png in Resources */,
+				00E9EDC51E9AADD2008A0EED /* stock___gravel_texture_003_by_gothicairshy-d4fpd4o.jpg in Resources */,
+				00E9EDBD1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg in Resources */,
+				00E9EDC41E9AADD2008A0EED /* rr_picture_4.jpg in Resources */,
+				00E9EDB91E9AADD2008A0EED /* ceiling.jpg in Resources */,
+				00E9EDC21E9AADD2008A0EED /* rr_picture_2.jpg in Resources */,
+				00E9EDBE1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg in Resources */,
+				00E9EDB81E9AADD2008A0EED /* brick-wall-free-textures-01.jpg in Resources */,
+				00E9EDBC1E9AADD2008A0EED /* gravel_by_moltenlead.jpg in Resources */,
+				00E9EDC61E9AADD2008A0EED /* train_landscape_1.jpg in Resources */,
+				00E9EDC11E9AADD2008A0EED /* rr_picture_1.jpg in Resources */,
+				00E9EDBB1E9AADD2008A0EED /* European-Countryside-Scenic-Backdrop.jpg in Resources */,
+				00E9EDC01E9AADD2008A0EED /* red-and-black-rocks-gravel-texture.jpg in Resources */,
+				00E9EDBA1E9AADD2008A0EED /* door_wall_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +379,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E9EDD21E9AAE36008A0EED /* Joint.swift in Sources */,
+				00E9EDD61E9AAE36008A0EED /* Segment.swift in Sources */,
+				00E9ED991E9AADB3008A0EED /* Platform.swift in Sources */,
+				00E9EDD41E9AAE36008A0EED /* Path.swift in Sources */,
+				00E9EDA01E9AADB3008A0EED /* EngineBlocky.swift in Sources */,
+				00E9EDD81E9AAE36008A0EED /* Turnout.swift in Sources */,
+				00E9EDA11E9AADB3008A0EED /* Train.swift in Sources */,
+				00E9ED9F1E9AADB3008A0EED /* CabooseBlocky.swift in Sources */,
+				00E9ED9E1E9AADB3008A0EED /* TrackBed.swift in Sources */,
+				00E9ED9B1E9AADB3008A0EED /* Picture.swift in Sources */,
+				00E9ED9C1E9AADB3008A0EED /* Room.swift in Sources */,
+				00E9EDD71E9AAE36008A0EED /* Turnin.swift in Sources */,
+				00E9ED981E9AADB3008A0EED /* LayoutItem.swift in Sources */,
+				00E9EDD51E9AAE36008A0EED /* Placement.swift in Sources */,
+				00E9EDD31E9AAE36008A0EED /* Line.swift in Sources */,
+				00E9EDD11E9AAE36008A0EED /* Extensions.swift in Sources */,
+				00E9ED9A1E9AADB3008A0EED /* Avatar.swift in Sources */,
+				00E9EDA21E9AADB3008A0EED /* TrainCar.swift in Sources */,
+				00E9ED971E9AADB3008A0EED /* Layout.swift in Sources */,
+				00E9ED9D1E9AADB3008A0EED /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E9ED7B1E9AAC60008A0EED /* VScaleFrameworkTests.swift in Sources */,
+				00E9EDDA1E9AAECB008A0EED /* PathTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,11 +563,14 @@
 		00E9ED841E9AAC60008A0EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = VScaleFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = G.R.Golden.VScaleFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -374,6 +578,8 @@
 		00E9ED851E9AAC60008A0EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = VScaleFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
