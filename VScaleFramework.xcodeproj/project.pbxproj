@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00133CE21EA40F170017B933 /* monkey.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 00133CE11EA40F170017B933 /* monkey.scnassets */; };
+		00133CE41EA40FD70017B933 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00133CE31EA40FD70017B933 /* Model.swift */; };
 		00E9ED761E9AAC60008A0EED /* VScaleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9ED6C1E9AAC60008A0EED /* VScaleFramework.framework */; };
 		00E9ED7D1E9AAC60008A0EED /* VScaleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E9ED6F1E9AAC60008A0EED /* VScaleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E9ED971E9AADB3008A0EED /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9ED871E9AADB3008A0EED /* Layout.swift */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00133CE11EA40F170017B933 /* monkey.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = monkey.scnassets; sourceTree = "<group>"; };
+		00133CE31EA40FD70017B933 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		00E9ED6C1E9AAC60008A0EED /* VScaleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VScaleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E9ED6F1E9AAC60008A0EED /* VScaleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VScaleFramework.h; sourceTree = "<group>"; };
 		00E9ED701E9AAC60008A0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				00E9ED8A1E9AADB3008A0EED /* Platform.swift */,
+				00133CE31EA40FD70017B933 /* Model.swift */,
 			);
 			path = layout_item;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 		00E9EDA31E9AADD2008A0EED /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				00133CE11EA40F170017B933 /* monkey.scnassets */,
 				00E9EDA51E9AADD2008A0EED /* black-curtain.jpg */,
 				00E9EDA61E9AADD2008A0EED /* brick-wall-free-textures-01.jpg */,
 				00E9EDA71E9AADD2008A0EED /* ceiling.jpg */,
@@ -353,6 +359,7 @@
 				00E9EDBD1E9AADD2008A0EED /* gravel_by_royaltyfreestock.jpg in Resources */,
 				00E9EDC41E9AADD2008A0EED /* rr_picture_4.jpg in Resources */,
 				00E9EDB91E9AADD2008A0EED /* ceiling.jpg in Resources */,
+				00133CE21EA40F170017B933 /* monkey.scnassets in Resources */,
 				00E9EDC21E9AADD2008A0EED /* rr_picture_2.jpg in Resources */,
 				00E9EDBE1E9AADD2008A0EED /* gray-gravel-rock-texture.jpg in Resources */,
 				00E9EDB81E9AADD2008A0EED /* brick-wall-free-textures-01.jpg in Resources */,
@@ -379,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00133CE41EA40FD70017B933 /* Model.swift in Sources */,
 				00E9EDD21E9AAE36008A0EED /* Joint.swift in Sources */,
 				00E9EDD61E9AAE36008A0EED /* Segment.swift in Sources */,
 				00E9ED991E9AADB3008A0EED /* Platform.swift in Sources */,
@@ -608,6 +616,7 @@
 				00E9ED821E9AAC60008A0EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E9ED831E9AAC60008A0EED /* Build configuration list for PBXNativeTarget "VScaleFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +625,7 @@
 				00E9ED851E9AAC60008A0EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

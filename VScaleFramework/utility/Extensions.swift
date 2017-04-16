@@ -162,6 +162,26 @@ extension SCNVector4
 	}
 }
 
+extension SCNScene
+{
+	// Bundle(for: type(of: self))
+	// Bundle(for: Path.self)
+
+	// load a .dae model with this name (no extension) from the framework's bundle, returning the first child node
+	static public func nodeFromDAE(from: String) -> SCNNode?
+	{
+		// use a class in the framework for the bundle
+		if let p = Bundle(for: Path.self).path(forResource: from, ofType: "dae"),
+			let scn = try? SCNScene(url: URL(fileURLWithPath: p)),
+			let n = scn.rootNode.childNodes.first
+		{
+			return n
+		}
+		
+		return nil
+	}
+}
+
 extension SCNMaterial
 {
 	// Create a material from an image, applied to the diffuse property.
